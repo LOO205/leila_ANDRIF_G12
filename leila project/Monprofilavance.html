@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Profil Avancé</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Andrif laila</h1>
+    </header>
+
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Je suis étudiante en informatique, passionnée par le développement web et la technologie. J'aime apprendre de nouvelles compétences et relever des défis techniques, tout en cherchant à créer des solutions innovantes et utiles. Mon objectif est de développer mon expertise et de contribuer à des projets qui ont un impact positif.</p>
+        <img src="c:\Users\WALID\Desktop\leila project\dev.jpeg.jpg" style="width:200px;height:auto";>
+    </section>
+
+    <section >
+        <h2>Hobbies et Objectifs</h2>
+        <h3>Mes Hobbies</h3>
+        <ul>
+            <li>Photographie</li>
+            <li>Voyages</li>
+            <li>Programmation</li>
+        </ul>
+        <h3>Mes Objectifs pour cette Année</h3>
+        <ol>
+            <li>Apprendre un nouveau langage de programmation</li>
+            <li>Voyager dans un nouveau pays </li>
+            <li>Participer à des ateliers de photographie</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Tableau d'Amis</h2>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Âge</th>
+                <th>Ville</th>
+                <th>Profil</th>
+            </tr>
+            <tr>
+                <td>Ikram</td>
+                <td>25</td>
+                <td>Rabat</td>
+                <td><a href="profil_ikram.html">Profil de Ikram </a></td>
+            </tr>
+            <tr>
+                <td>Douaa</td>
+                <td>22</td>
+                <td>Casablanca</td>
+                <td><a href="profil_douaa.html">Profil de Douaa</a></td>
+            </tr>
+            <tr>
+                <td>Aya</td>
+                <td>20</td>
+                <td>Agadir</td>
+                <td><a href="profil_aya.html">Profil de Aya</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Formulaire de Contact</h2>
+        <form>
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</body>
+<style>
+body {
+    font-family: Arial ;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+header {
+    background: #00BFFF;
+    color: white;
+    padding: 15px ;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border:1px solid #ccc;
+    border-radius:5px ;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input, textarea, button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+</style>
+</html>
